@@ -42,7 +42,7 @@ const isIE=window.navigator.userAgent.indexOf('MSIE')>-1
         {
           auth:{
             clientId:'1421bb55-09d2-4dee-8f4b-b8b4ddccf25e',
-            redirectUri:window.location.origin, //'http://localhost:4200',
+            redirectUri:'http://localhost:4200',
             authority:'https://login.microsoftonline.com/32ab84c9-e6de-4459-a85c-9156dfb35149'
           },
           cache:
