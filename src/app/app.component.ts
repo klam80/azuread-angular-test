@@ -44,6 +44,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   logout() {
-    this.authService.logoutRedirect({postLogoutRedirectUri: environment.postLogoutUrl}); // somehow the env var is not found by build //environment.postLogoutUrl});
+    this.authService.logoutRedirect({postLogoutRedirectUri: window.location.origin}); // somehow the env var is not found by build //environment.postLogoutUrl});
   }
 }
